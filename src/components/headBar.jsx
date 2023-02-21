@@ -7,7 +7,6 @@ import menu from '../image/menu.png'
 
 
 function HeadBar() {
-<<<<<<< HEAD
   return (
 
     <div className='container-navbar'>
@@ -55,11 +54,6 @@ function HeadBar() {
       </div>
     </div>
   )
-=======
-    return (
-        <div>HeadBar</div>
-    )
->>>>>>> HomePage
 }
 
 export default HeadBar
