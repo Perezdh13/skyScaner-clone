@@ -23,7 +23,7 @@ function HomePage() {
                     </div>
                 </div>
             </div>
-            {/* <div className='homePage-promo'>
+            <div className='homePage-promo'>
                 <img className='homePage-promo-photo' src={photo} alt='photo2'/>
             </div>
             <div className='homePage-internalLinks'>
@@ -31,7 +31,7 @@ function HomePage() {
             </div>
             <div className='homePage-footerDiv'>
 
-            </div> */}
+            </div>
 
         </div>
     )
