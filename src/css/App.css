@@ -10,10 +10,11 @@
     max-width: 79.5rem;
     grid-column-gap: 1rem;
     column-gap: 1rem;
+    display: flex;
 }
 .homePage-globalNavigationCards-hotel {
     min-width: 8.75rem;    
-    height: 8.75rem;
+    height: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -21,14 +22,13 @@
     border-radius: 0.75rem;
     cursor: pointer;
     transition: opacity .2s ease-in-out;
+    padding: 1rem;
 }
-.homePage-globalNavigationCards-hotel img {
-    width: 100%;
-}
+
 
 .homePage-globalNavigationCards-rentCars {
     min-width: 8.75rem;
-    height: 8.75rem;
+    height: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -36,14 +36,13 @@
     border-radius: 0.75rem;
     cursor: pointer;
     transition: opacity .2s ease-in-out;
+    padding: 1rem;
 }
-.homePage-globalNavigationCards-rentCars img {
-    width: 100%;
-}
+
 
 .homePage-globalNavigationCards-Explore {
     min-width: 8.75rem;
-    height: 8.75rem;
+    height: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -51,8 +50,17 @@
     border-radius: 0.75rem;
     cursor: pointer;
     transition: opacity .2s ease-in-out;
+    padding: 1rem;
 }
-.homePage-globalNavigationCards-Explore img {
-    width: 100%;
+
+
+.cardImg {
+    max-width: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardSpan {
+
 }
 
