@@ -1,19 +1,18 @@
 /*///////// FOOTER BAR ///////////*/
-.homePage-globalNavigationCards {
-  
-}
+
 
 
 /*///////// HOME PAGE ///////////*/
 
 .homePage-globalNavigationCards {
     max-width: 79.5rem;
-    grid-column-gap: 1rem;
     column-gap: 1rem;
     display: flex;
+    justify-content: center;
+    margin: 50px;
 }
 .homePage-globalNavigationCards-hotel {
-    min-width: 8.75rem;    
+    min-width: 29.5rem;    
     height: 8rem;
     display: flex;
     flex-direction: column;
@@ -27,7 +26,7 @@
 
 
 .homePage-globalNavigationCards-rentCars {
-    min-width: 8.75rem;
+    min-width: 29.5rem;
     height: 8rem;
     display: flex;
     flex-direction: column;
@@ -41,7 +40,7 @@
 
 
 .homePage-globalNavigationCards-Explore {
-    min-width: 8.75rem;
+    min-width: 29.5rem;
     height: 8rem;
     display: flex;
     flex-direction: column;
@@ -60,7 +59,36 @@
     flex-direction: column;
 }
 
-.cardSpan {
 
+
+.homePage {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homePage-promo{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.homePage-promo img{
+  width: 80vw;
+  height: 60vh;
+  border-radius: 1%;
+}
+
+.homePage-internalLinks-text h3{
+  margin-left: 10vw;
+  margin-top: 10vh;
+}
+.homePage-internalLinks-text p{
+  margin-left: 10vw;
+}
+
+.homePage-internalLinks{
+  display:grid;
+  grid-template-columns:340px 340px 340px;
+  grid-template-rows:88px 88px 88px ;
 }
 

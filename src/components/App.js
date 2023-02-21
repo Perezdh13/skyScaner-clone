@@ -1,6 +1,6 @@
-import Footerbar from './Footerbar.jsx';
-import HeadBar from './HeadBar.jsx';
-import HomePage from './HomePage.jsx';
+import Footerbar from './Footerbar';
+import HeadBar from './HeadBar';
+import HomePage from './HomePage';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import '../css/App.css';
 
@@ -10,11 +10,13 @@ function App() {
     {
       path:"/",
       element:<><HeadBar/><HomePage/><Footerbar/></>
-    }
+    },
+    
   ])
 
   return (
     <div className="App">
+      
       <RouterProvider router={router} />
     </div>
   );
