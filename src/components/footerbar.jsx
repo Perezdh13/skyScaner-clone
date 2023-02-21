@@ -1,9 +1,10 @@
 import React from 'react'
 
-function footerbar() {
+function FooterBar() {
   return (
-    <div>footerbar</div>
+    <div>FooterBar</div>
+    
   )
 }
 
-export default footerbar
+export default FooterBar
