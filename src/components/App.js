@@ -9,34 +9,14 @@ function App() {
   const router = createBrowserRouter([
     {
       path:"/",
-      element:<><HeadBar/><Footerbar/><HomePage/></>
-    },
-    {
-      path:"/",
-      element:<></>
-    },
-    {
-      path:"/",
-      element:<></>
-    },
-    {
-      path:"/",
-      element:<></>
-    },
-    {
-      path:"/",
-      element:<></>
-    },
-    {
-      path:"/",
-      element:<></>
+      element:<><HeadBar/><HomePage/><Footerbar/></>
     },
     
   ])
 
   return (
     <div className="App">
-      <HeadBar />
+      
       <RouterProvider router={router} />
     </div>
   );
