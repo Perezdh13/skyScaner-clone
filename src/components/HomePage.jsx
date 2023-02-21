@@ -1,5 +1,5 @@
 import React from 'react'
-
+import photo from '../image/background.jpg'
 function HomePage() {
     return (
         <div className='homePage'>
@@ -15,7 +15,7 @@ function HomePage() {
                 </div>
             </div>
             <div className='homePage-promo'>
-
+                <img className='homePage-promo-photo' src={photo} alt='photo'/>
             </div>
             <div className='homePage-internalLinks'>
 

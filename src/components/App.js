@@ -1,4 +1,4 @@
-import Footerbar from './Footerbar';
+import Footerbar from './FooterBar';
 import HeadBar from './HeadBar';
 import HomePage from './HomePage';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
