@@ -1,6 +1,8 @@
 /*///////// FOOTER BAR ///////////*/
 
-
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /*///////// HOME PAGE ///////////*/
 
@@ -11,8 +13,9 @@
     justify-content: center;
     margin: 50px;
 }
+
 .homePage-globalNavigationCards-hotel {
-    min-width: 29.5rem;    
+    min-width: 29.5rem;
     height: 8rem;
     display: flex;
     flex-direction: column;
@@ -23,7 +26,6 @@
     transition: opacity .2s ease-in-out;
     padding: 1rem;
 }
-
 
 .homePage-globalNavigationCards-rentCars {
     min-width: 29.5rem;
@@ -38,7 +40,6 @@
     padding: 1rem;
 }
 
-
 .homePage-globalNavigationCards-Explore {
     min-width: 29.5rem;
     height: 8rem;
@@ -52,43 +53,47 @@
     padding: 1rem;
 }
 
-
 .cardImg {
-    max-width: 2rem;
+    max-width: 3rem;
     display: flex;
     flex-direction: column;
 }
 
-
+.cardSpan {
+    font-size: 1rem;
+    font-weight: 700;
+}
 
 .homePage {
-  margin-top: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.homePage-promo{
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-}
-.homePage-promo img{
-  width: 80vw;
-  height: 60vh;
-  border-radius: 1%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.homePage-internalLinks-text h3{
-  margin-left: 10vw;
-  margin-top: 10vh;
-}
-.homePage-internalLinks-text p{
-  margin-left: 10vw;
+.homePage-promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.homePage-internalLinks{
-  display:grid;
-  grid-template-columns:340px 340px 340px;
-  grid-template-rows:88px 88px 88px ;
+.homePage-promo img {
+    width: 80vw;
+    height: 60vh;
+    border-radius: 1%;
 }
 
+.homePage-internalLinks-text h3 {
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.homePage-internalLinks-text p {
+    margin-left: 10vw;
+}
+
+.homePage-internalLinks {
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: 88px 88px 88px;
+}
