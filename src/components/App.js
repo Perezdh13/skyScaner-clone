@@ -1,5 +1,6 @@
-import footerbar from './footerbar';
-import headBar from './headBar';
+import Footerbar from './Footerbar';
+import HeadBar from './HeadBar';
+import HomePage from './HomePage';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import '../css/App.css';
 
@@ -8,7 +9,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path:"/",
-      elemet:<><headBar/>< Footerbar/></>
+      elemet:<><HeadBar/><Footerbar/><HomePage/></>
     },
     {
       path:"/",
