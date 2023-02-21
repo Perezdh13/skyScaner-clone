@@ -13,17 +13,50 @@
   border-radius: 1%;
 }
 
-.homePage-internalLinks-text h3{
+.homePage-internalLinks-text h2{
   margin-left: 10vw;
   margin-top: 10vh;
 }
 .homePage-internalLinks-text p{
   margin-left: 10vw;
+  color: black;
+  font-size: 1vw;
 }
 
 .homePage-internalLinks{
   display:grid;
-  grid-template-columns:340px 340px 340px;
-  grid-template-rows:88px 88px 88px ;
+  grid-template-columns:1fr 1fr 1fr;  
+  column-gap: 3vw;
+  height: 70vh;
+  width: 80vw;
+  margin-left: 9vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+
+}
+.homePage-internalLinks-city{
+  display: flex; 
+  
+}
+
+.homePage-internalLinks-cititext li{
+  display: flex;
+}
+
+.homePage-internalLinks img{
+  box-shadow: 0 1px 3px 0 rgb(37 32 31 / 30%);
+  border-top-left-radius: 7%;
+  border-bottom-left-radius:7%;
+  height: 13vh;;
+  width: 6vw;
+}
+
+.homePage-internalLinks li{
+  color:blue
+}
+
+.homePage-footerDiv p{
+  color: black;
+  font-size: 3vh;
 }
 
