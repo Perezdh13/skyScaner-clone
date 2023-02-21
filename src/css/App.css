@@ -129,14 +129,13 @@
     border-radius: 1%;
 }
 
-.homePage-internalLinks-text h3 {
-    margin-left: 10vw;
-    margin-top: 10vh;
+.homePage-internalLinks-text  {
+    margin-left: 2vw;
+    margin-top: 5vh;
 }
+ .homePage
 
-.homePage-internalLinks-text p {
-    margin-left: 10vw;
-}
+
 
 .homePage-internalLinks {
     display: grid;
