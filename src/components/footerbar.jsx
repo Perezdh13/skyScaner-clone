@@ -4,8 +4,8 @@ import spain from '../image/spain.png'
 function FooterBar() {
   return (
     <div className='Footer-grid'>
-      <div className='Footer-flag'>
-        <p><img src={spain} alt="flag" width={20}></img>España Español (ES)  €EUR</p>
+      <div>
+        <p className='Footer-flag'><img src={spain} alt="flag" width={20}></img>España Español (ES)  €EUR</p>
       </div>
       <div>
         <p>Ayuda</p>
