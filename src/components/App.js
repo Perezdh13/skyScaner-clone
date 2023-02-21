@@ -1,4 +1,4 @@
-import Footerbar from './Footerbar';
+import Footerbar from './FooterBar';
 import HeadBar from './HeadBar';
 import HomePage from './HomePage';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
@@ -9,34 +9,14 @@ function App() {
   const router = createBrowserRouter([
     {
       path:"/",
-      elemet:<><headBar/>< Footerbar/></>
-    },
-    {
-      path:"/",
-      elemet:<></>
-    },
-    {
-      path:"/",
-      elemet:<></>
-    },
-    {
-      path:"/",
-      elemet:<></>
-    },
-    {
-      path:"/",
-      elemet:<></>
-    },
-    {
-      path:"/",
-      elemet:<></>
+      element:<><HeadBar/><Footerbar/><HomePage/></>
     },
     
   ])
 
   return (
     <div className="App">
-      <HeadBar />
+      
       <RouterProvider router={router} />
     </div>
   );
