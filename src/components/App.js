@@ -1,4 +1,4 @@
-import Footerbar from './Footerbar';
+import FooterBar from './FooterBar';
 import HeadBar from './HeadBar';
 import HomePage from './HomePage';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
@@ -9,7 +9,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path:"/",
-      elemet:<><HeadBar/><Footerbar/><HomePage/></>
+      elemet:<><HeadBar/><FooterBar/><HomePage/></>
     },
     {
       path:"/",
@@ -37,6 +37,7 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router={router} />
+      <FooterBar/>
     </div>
   );
 }
