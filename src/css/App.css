@@ -1,16 +1,74 @@
 /*///////// FOOTER BAR ///////////*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*///////// HOME PAGE ///////////*/
+
+.homePage-globalNavigationCards {
+    max-width: 79.5rem;
+    column-gap: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.homePage-globalNavigationCards-hotel {
+    min-width: 29.5rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px 0 rgb(37 32 31 / 30%);
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: opacity .2s ease-in-out;
+    padding: 1rem;
+}
+
+.homePage-globalNavigationCards-rentCars {
+    min-width: 29.5rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px 0 rgb(37 32 31 / 30%);
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: opacity .2s ease-in-out;
+    padding: 1rem;
+}
+
+.homePage-globalNavigationCards-Explore {
+    min-width: 29.5rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px 0 rgb(37 32 31 / 30%);
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: opacity .2s ease-in-out;
+    padding: 1rem;
+}
+
+.cardImg {
+    max-width: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardSpan {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 .homePage {
-  margin: 0;
-}
-.homePage-promo{
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-}
-.homePage-promo img{
-  width: 80vw;
-  height: 60vh;
-  border-radius: 1%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .homePage-internalLinks-text h2{
@@ -59,4 +117,29 @@
   color: black;
   font-size: 3vh;
 }
+.homePage-promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.homePage-promo img {
+    width: 80vw;
+    height: 60vh;
+    border-radius: 1%;
+}
+
+.homePage-internalLinks-text h3 {
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.homePage-internalLinks-text p {
+    margin-left: 10vw;
+}
+
+.homePage-internalLinks {
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: 88px 88px 88px;
+}
